@@ -39,26 +39,8 @@ graph TD
     style APIContainer fill:#004d80,stroke:#333,color:#fff
 ```
 
-<div style="padding: 40px; display: flex; justify-content: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-    <div style="width: 580px; background-color: #c0504d; padding: 15px 20px 25px 20px; border: 1px solid #333; color: white;">
-        <div style="display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 19px; margin-bottom: 20px;">
-            <span>grade-submission-portal</span>
-            <span style="font-size: 14px; font-weight: normal; opacity: 0.9;">Label Groupings</span>
-        </div>
-        <div style="display: flex; gap: 15px; align-items: flex-start;">
-            <div style="width: 320px; border: 1px solid #111;">
-                <div style="background-color: #004d80; padding: 10px; text-align: center; font-weight: bold; font-size: 18px;">Container</div>
-                <div style="background-color: #1a1a1a; padding: 18px; display: flex; justify-content: center;">
-                    <div style="background-color: #666; padding: 10px; width: 100%; text-align: center; font-size: 15px; color: white;">Grade Submission Portal</div>
-                </div>
-            </div>
-            <div style="display: flex; flex-direction: column; gap: 15px;">
-                <div style="background-color: #00b050; padding: 4px 12px; font-weight: bold; font-size: 20px; width: fit-content; color: white;">5001</div>
-                <div style="background-color: #333; padding: 10px; font-size: 14px; border: 1px solid #444; color: #ccc;">Resource Requirements</div>
-            </div>
-        </div>
-    </div>
-</div>
+<img src="../media/Grade Submission Portal Pod.png" style="zoom:40%;" />
+
 ### Pod
 
 A Pod has metadata and runtime requirements.
@@ -141,42 +123,8 @@ Running two containers inside of the same pod implies that the containers need t
 
 So when would you ever want to have two containers in the same pod? When the microservice relies on a sidecar to provide it with additional behavior and functionality.
 
-<div style="padding: 40px; display: flex; justify-content: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-    <div style="width: 580px; background-color: #c0504d; padding: 15px 20px 25px 20px; border: 1px solid #333; color: white;">
-        <div style="display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 19px; margin-bottom: 20px;">
-            <span>grade-submission-portal</span>
-            <span style="font-size: 14px; font-weight: normal; opacity: 0.9;">Label Groupings</span>
-        </div>
-        <div style="display: flex; gap: 15px;">
-            <!-- Left: two containers -->
-            <div style="flex: 1; display: flex; flex-direction: column; gap: 12px;">
-                <!-- Container 1 -->
-                <div style="border: 1px solid #111;">
-                    <div style="background-color: #004d80; padding: 10px; text-align: center; font-weight: bold; font-size: 18px;">Container</div>
-                    <div style="background-color: #1a1a1a; padding: 18px; display: flex; justify-content: center;">
-                        <div style="background-color: #666; padding: 10px; width: 100%; text-align: center; font-size: 15px; color: white;">Grade Submission Portal</div>
-                    </div>
-                </div>
-                <!-- Container 2 -->
-                <div style="border: 1px solid #111;">
-                    <div style="background-color: #004d80; padding: 10px; text-align: center; font-weight: bold; font-size: 18px;">Container</div>
-                    <div style="background-color: #1a1a1a; padding: 18px; display: flex; justify-content: center;">
-                        <div style="background-color: #666; padding: 10px; width: 100%; text-align: center; font-size: 15px; color: white;">Grade Submission Portal Health Checker</div>
-                    </div>
-                </div>
-            </div>
-            <!-- Right: port + line + localhost, aligned to container 1 top and container 2 center -->
-            <div style="width: 80px; display: flex; flex-direction: column; align-items: center;">
-                <!-- 5001 badge -->
-                <div style="background-color: #00b050; padding: 4px 12px; font-weight: bold; font-size: 20px; color: white; white-space: nowrap;">5001</div>
-                <!-- Line that goes down -->
-                <div style="width: 2px; background-color: white; height: 100%;  flex: 1;"></div>
-                <!-- localhost sits at the bottom, aligned with mid of container 2 -->
-                <div style="font-size: 20px; font-weight: bold; color: white; padding-bottom: 30px;">localhost</div>
-            </div>
-        </div>
-    </div>
-</div>
+<img src="../media/Grade Submission Portal Pod with Sidecar.png" style="zoom:40%;" />
+
 
 Both of these containers, by virtue of running in the same pod, they're going to be scheduled to the same node.
 
