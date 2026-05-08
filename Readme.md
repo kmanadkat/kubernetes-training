@@ -7,4 +7,4 @@
 18. [Self-Healing & Resiliency](./18-resiliency-and-self-healing/Readme.md)
 20. [Deployment and Pod Replicas](./20-deployment-pod-replicas/Readme.md)
 23. [Rolling Updates and Rollback](./23-rolling-updates-and-rollback/readme.md)
-
+25. [Liveness and Readiness Probes](./25-liveness-and-readiness-probe/Readme.md)
