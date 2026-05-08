@@ -10,3 +10,4 @@
 25. [Liveness and Readiness Probes](./25-liveness-and-readiness-probe/Readme.md)
 27. [Anatomy of Connection String](./27-anatomy-of-connection-string/Readme.md)
 28. [Statefulset and Persistent Volumes](./28-statefulset-and-persistent-volumes/Readme.md)
+29. [Database Authentication](./29-database-authentication/Readme.md)
