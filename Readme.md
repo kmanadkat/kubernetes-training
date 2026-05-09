@@ -12,3 +12,4 @@
 28. [Statefulset and Persistent Volumes](./28-statefulset-and-persistent-volumes/Readme.md)
 29. [Database Authentication](./29-database-authentication/Readme.md)
 31. [ConfigMaps and Secrets](./31-configmaps-secrets/Readme.md)
+33. [Horizontal Pod Autoscaler](./33-horizontal-pod-autoscaler/Readme.md)
