@@ -11,3 +11,4 @@
 27. [Anatomy of Connection String](./27-anatomy-of-connection-string/Readme.md)
 28. [Statefulset and Persistent Volumes](./28-statefulset-and-persistent-volumes/Readme.md)
 29. [Database Authentication](./29-database-authentication/Readme.md)
+31. [ConfigMaps and Secrets](./31-configmaps-secrets/Readme.md)
