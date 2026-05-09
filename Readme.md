@@ -13,3 +13,4 @@
 29. [Database Authentication](./29-database-authentication/Readme.md)
 31. [ConfigMaps and Secrets](./31-configmaps-secrets/Readme.md)
 33. [Horizontal Pod Autoscaler](./33-horizontal-pod-autoscaler/Readme.md)
+36. [Ingress Controller](./36-ingress-controller/Readme.md)
